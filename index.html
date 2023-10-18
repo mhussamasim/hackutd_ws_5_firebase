@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HackUTD</title>
+
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Grocery Store</h2>
+      <ul class="">
+        <li>
+          <h3 class="item-name">Apples</h3>
+          <button onclick="addItem(this)">Add to cart</button>
+        </li>
+        <li>
+          <h3 class="item-name">Bananas</h3>
+          <button onclick="addItem(this)">Add to cart</button>
+        </li>
+        <li>
+          <h3 class="item-name">Milk</h3>
+          <button onclick="addItem(this)">Add to cart</button>
+        </li>
+        <li>
+          <h3 class="item-name">Bread</h3>
+          <button onclick="addItem(this)">Add to cart</button>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Cart</h2>
+      <ul id="cart-items"></ul>
+    </section>
+  </body>
+</html>
